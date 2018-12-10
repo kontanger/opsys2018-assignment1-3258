@@ -21,4 +21,3 @@ do
     cp "$address"_temp.txt "$address".txt > /dev/null
     rm "$address"_temp.txt
 done < "$INPUT"
-wait
