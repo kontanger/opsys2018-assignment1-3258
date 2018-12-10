@@ -25,4 +25,4 @@ while read line || [[ -n $line ]]
 do
     checkUrl $line &
 done < "$INPUT" 
-
+wait
